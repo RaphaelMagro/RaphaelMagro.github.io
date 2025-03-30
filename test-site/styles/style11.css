@@ -1,0 +1,17 @@
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  text-align: center;
+  image-rendering: 100%;
+}
+
+button:hover {
+  color: rgb(0, 0, 0);
+}

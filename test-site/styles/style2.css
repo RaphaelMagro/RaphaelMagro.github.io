@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  overflow-y: auto;
+  background: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+}
+.content {
+  margin-left: 220px;
+  padding: 20px;
+  height: 2000px; /* Creates a scrollable area */
+}
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px 0;
+  background: #444;
+}
+.sidebar a:hover {
+  background: #555;
+}
+/* Target section to scroll */
+#scroll-target {
+  margin-top: 500px; /* Push it down so scrolling is noticeable */
+}

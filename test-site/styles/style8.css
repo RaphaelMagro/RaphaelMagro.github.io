@@ -1,0 +1,46 @@
+html {
+  background-color: black;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid rgb(41, 39, 39);
+  padding: 10px;
+  background-color: rgb(41, 39, 39);
+  text-align: center;
+}
+
+th {
+  border: 1px solid rgb(41, 39, 39);
+  padding: 10px;
+  background-color: rgb(41, 39, 39);
+}
+
+.division {
+  background-color: black;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.foot {
+  background-color: black;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.box {
+  width: 50%;
+  background-color: rebeccapurple;
+  color: white;
+  /* transform: rotate(0.99turn); */
+  margin: 10px 10px 0px 10px;
+  padding: 20px 20px 20px 0px;
+}
+
+.outer {
+  border: 1px solid black;
+}

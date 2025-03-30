@@ -1,0 +1,26 @@
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  border: 1px dashed pink;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+th {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+}
+
+section {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style5.css" />
+  </head>
+  <body>
+
+    <h1>Space Exploration Trivia Challenge</h1>
+
+    <div>
+      <h2>Trivia Questions:</h2>
+      <ol>
+        <li>Which planet is known as the Red Planet?</li>
+        <li>Who was the first person to walk on the Moon?</li>
+        <li>What year did the Curiosity Rover land on Mars?</li>
+        <li>What is the name of the first artificial sattelite launched into space?</li>
+        <li>Which space agency was responsible for the Apollo missions?</li>
+    </ol>
+    <p>Answer the question and submit your response below!</p>
+    </div>
+    
+    <h2>Space Missions Overview</h2>
+    <table>
+      <tr>
+        <th rowspan="2">Mission</th>
+        <th rowspan="2">Year</th>
+        <th rowspan="2">Country</th>
+        <th colspan="2">Key Achievements</th>
+        <th rowspan="2">Destination</th>
+      </tr>
+      <tr>
+        <th>Milestone</th>
+        <th>Impact</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Apollo 11</td>
+        <td rowspan="2">1969</td>
+        <td rowspan="2">USA</td>
+        <td>First human moon landing</td>
+        <td>Neil Armstrong & Buzz Aldrin walked on the moon</td>
+        <td rowspan="2">Moon</td>
+      </tr>
+      <tr>
+        <td>Returned safely</td>
+        <td>Proved space feasibility</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Curiosity Rover</td>
+        <td rowspan="2">2012</td>
+        <td rowspan="2">USA</td>
+        <td colspan="2">Explored Mars and analyzed its surface composition</td>
+        <td rowspan="2">Mars</td>
+      </tr>
+      <tr>
+        <td colspan="2">Discovered evidence of ancient water</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Chang'e 4</td>
+        <td rowspan="2">2019</td>
+        <td rowspan="2">China</td>
+        <td colspan="2">First soft landing on the far side of the Moon</td>
+        <td rowspan="2">Moon</td>
+      </tr>
+      <tr>
+        <td colspan="2">Deployed lunar rover for exploration</td>
+      </tr>
+    </table>
+    <h2>Submit Your Answers</h2>
+    <form action="thankyou.html" method="get">
+        <p>
+          <label for="name">Name:</label>
+        </p>
+
+        <p>
+          <input type="text" name="name" id="name" required />
+        </p>
+
+        <p>
+            <p>Your Answers:</p>
+            <label for="comments"></label>
+            <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Submit!</button>
+          <button type="reset">Reset</button>
+        </p>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You!</title>
+    <link rel="stylesheet" href="./styles/style11.css" />
+  </head>
+  <body background="./images/space-image2.jpg">
+    <section>
+      <h1 style="color: rgb(255, 255, 255)">Thank You!</h1>
+      <p style="color: rgb(255, 255, 255)">
+        Dear <span id="nameDisplay"></span>, your form has been submitted
+        successfully.
+      </p>
+      <p style="color: rgb(249, 249, 249)">
+        Your space adventure request has been recorded.
+      </p>
+      <div class="button"></div>
+      <form action="index28.html">
+        <button type="menu">Back To Home</button>
+      </form>
+      </div>
+    </section>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const getName = params.get("name");
+
+      const nameElement = (document.getElementById("nameDisplay").textContent =
+        getName);
+    </script>
+  </body>
+</html>
+
+
+
+
+<aside class="sidebar">
+  <img src="./images/logo-transparent.png" alt="Logo Mags">
+  <ul class="sidebar-nav">
+    <li><a href="#scroll-target1">About Me</a></li>
+    <li><a href="#scroll-target2">What Is My Profession All About?</a></li>
+    <li><a href="#scroll-target3">What I Can Offer</a></li>
+  </ul>
+</aside>
+
+aside {
+  flex: 0 0 250px;
+  background-color: #000000;
+  padding: 2rem;
+  height: 330px;
+  position: fixed;
+  left: 1px;
+  top: 80px;
+  margin: 10px;
+  border-right: 1px solid rgb(255, 222, 4);
+  overflow-y: auto;
+  color: white;
+  scroll-behavior: smooth;
+}
+aside a,
+.sidebar-nav {
+  text-decoration: none;
+  list-style: none;
+}
